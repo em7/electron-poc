@@ -1,0 +1,4 @@
+pyinstaller --onefile --noconsole main.py
+
+Run with .\dist\main.exe
+from this directory (or copy my-web-server.exe to the same directory as main.exe)
