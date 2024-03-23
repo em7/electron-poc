@@ -9,6 +9,7 @@
 
 (sb-ext:save-lisp-and-die "my-web-server.exe"
                           :executable t
+                          :application-type :gui
                           :toplevel #'main
                           :compression nil)
 
